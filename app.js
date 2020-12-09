@@ -3,7 +3,7 @@ let k = document.getElementById("knap1");
 
 
 k.onclick = ()=>{
-    k.innerText = "KLIK";
+    k.innerText = "KLIK!!!";
     let h = document.querySelector("h1");
     h.style.color = "green";
     h.innerText = new Date();
